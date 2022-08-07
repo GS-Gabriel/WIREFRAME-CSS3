@@ -1,0 +1,148 @@
+* { /* CCS reset */
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+header {
+    width: 900px;
+    height: 200px;
+    border: 1px solid rgb(230, 230, 230);;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#logo {
+    float: left;
+    width: 180px;
+    height: 175px;
+    margin-top: 8px;
+    margin-left: 10px;
+    background-image: url(img/login.png);
+    background-size: 100% 100%;
+}
+#nav1 {
+    float: right;
+    width: 430px;
+    height: 90px;
+    margin-top: 6px;
+    margin-right: 10px;
+    background-image: url(img/redes.jpg);
+    background-size: 100% 100%;
+}
+#navs {
+    width: 900px;
+    height: 105px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#nav2 {
+    float: left;
+    width: 440px;
+    height: 90px;
+    margin-top: 6px;
+    background-color: rgb(230, 230, 230);
+}
+ul li {
+    margin-left: 30px;
+    height: 9px;
+    padding: 40px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+ul li a {
+    height: 20px;
+    display: block;
+    color: rgb(102, 105, 105);
+}
+#nav3 {
+    float: right;
+    width: 440px;
+    height: 90px;
+    margin-top: 6px;
+    background-color: rgb(230, 230, 230);
+}
+main {
+    width: 900px;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#aside1 {
+    float: left;
+    width: 235px;
+    height: 480px;
+    border: 1px solid #000;
+    background-color: #000;
+}
+.section {
+    width: 214px;
+    height: 214px;
+    margin: 10px;
+    margin-top: 13px;
+    color: #fff;
+}
+#section6 {
+    background-image: url(img/aistain.jpg);
+    background-size: 100% 100%;
+}
+#aside2 {
+    float: right;
+    width: 235px;
+    height: 480px;
+    background-image: url(img/ads.png);
+}
+article {
+    float: left;
+    width: 400px;
+    height: 480px;
+    margin-left: 12px;
+}
+#section1 {
+    float: left;
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+    background-image: url(img/fisica.jpg);
+    background-size: 100% 100%;
+}
+#section2 {
+    float: right;
+    width: 180px;
+    height: 130px;
+    margin: 9px;
+    margin-left: 5px;
+    padding: 3px;
+}
+#section3 {
+    float: left;
+    width: 378px;
+    height: 110px;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#section4 {
+    float: left;
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+}
+#section5 {
+    float: right;
+    width: 180px;
+    height: 130px;
+    margin: 9px;
+    margin-left: 5px;
+    background-image: url(img/simb.jpg);
+    background-size: 100% 100%;
+}
+footer {
+    width: 900px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(img/footer.png);
+    background-size: 100% 100%;
+}
